@@ -1,4 +1,4 @@
-<h1>MORNING COFFEE</h1>h1>
+<h1>MORNING COFFEE</h1>
 
 ![coffee banner](https://github.com/rocknrome/coffee-orders-v1/assets/126816805/f5a90bd8-8ecb-4d99-91a6-4d95ef941b3e)
 
