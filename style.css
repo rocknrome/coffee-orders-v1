@@ -1,0 +1,62 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Header styling */
+.header h1 {
+    color: #5C4033; /* Coffee brown color */
+    text-align: center;
+}
+
+/* Coffee order section styling */
+.coffee-order {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+.input {
+    margin-bottom: 15px;
+}
+
+/* Styling for select dropdowns and buttons */
+select, button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    background-color: #5C4033; /* Coffee brown color */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #48392A;
+}
+
+/* Order display styling */
+#orders-display {
+    border-top: 2px solid #5C4033;
+    padding-top: 20px;
+}
+
+/* Styling for the Clear all button */
+#clear-all {
+    background-color: #B22222; /* Red color for clear button */
+    border-color: #B22222;
+}
+
+#clear-all:hover {
+    background-color: #9B1C1C;
+}

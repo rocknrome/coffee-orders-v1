@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morning coffee</title>
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header"><h1>MORNING COFFEE</h1></div>
+            <div class="coffee-order">
+                <!--NAME SECTION-->
+                <div class="input">
+                    <select id="name-select"></select>  <!--Selecting a name of a person-->
+                </div>
+
+                <!--COFFEE SELECTION SECTION-->
+                <div class="input">
+                    <select id="coffee-select"></select>  <!--Selecting a coffee type-->
+                    <button id="order-now">Order my coffee</button>
+                </div>
+            </div>
+        <!--VISUAL SEPARATION BETWEEN THE SECTIONS-->
+        <hr>
+
+        <!--DISPLAYING CURRENT ORDERS SECTION-->
+        <div class="display" id="orders-display"></div>
+
+        <!-- CLEAR ALL BUTTON -->
+<button id="clear-all">Clear all</button>               <!--Clearing out all orders-->
+</body>
+</html>
